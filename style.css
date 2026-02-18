@@ -1,0 +1,384 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: aqua;
+}
+
+.menu-section {
+    width: 100%;
+    height: 100px;
+    background-color: #105234;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+}
+
+.menu {
+    width: 20%;
+    height: 100px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.menu p {
+    width: 40%;
+    height: 30px;
+    /* background-color: red; */
+}
+
+.menu i {
+    /* background-color: azure; */
+    margin-right: 10px;
+}
+
+.menu p:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.logo {
+    width: 50%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.logo img {
+    width: 10%;
+    /* height: 100px; */
+    /* background-color: blue; */
+}
+
+.icon {
+    width: 30%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.search:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.main-video {
+    width: 100%;
+    height: 800px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    width: 50%;
+    height: 300px;
+    /* background-color: brown; */
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 150px;
+}
+
+.text h4 {
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(64, 0, 255); */
+}
+
+.text h1 {
+    width: 100%;
+    height: 50px;
+    /* background-color: chartreuse; */
+    font-size: 50px;
+}
+
+.text p {
+    width: 25%;
+    height: 40px;
+    background-color: #ffffff0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 250px;
+    border-radius: 30px;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+
+.text p i {
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+
+
+.video {
+    width: 100%;
+    height: 800px;
+    background-color: violet;
+}
+
+.box {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+}
+
+.box-1 {
+    width: 40%;
+    height: 200px;
+    /* background-color: aqua; */
+    font-size: 40px;
+    padding-left: 100px;
+    margin-top: 100px;
+    color: #105234;
+
+}
+
+.box-2 {
+    width: 50%;
+    height: 500px;
+    /* background-color: rgb(55, 0, 255); */
+    margin-top: 100px;
+}
+
+.box-2 h3 {
+    height: 150px;
+    font-size: 30px;
+    /* background-color: brown; */
+}
+
+.box-2 p {
+    /* background-color: greenyellow; */
+    width: 100%;
+    height: 250px;
+    font-size: 30px;
+    font-weight: 300;
+    color: grey;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-2 h2 {
+    width: 35%;
+    /* background-color: chocolate; */
+    color: #105234;
+    height: 50px;
+    margin-top: 30px;
+    font-weight: 100;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-2 h2 i {
+    font-size: 15px;
+    /* background-color: blueviolet; */
+    padding-left: 5px;
+    /* font-weight: 100; */
+}
+
+.context {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.rolex {
+    width: 20%;
+    height: 100px;
+    /* background-color: yellow; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rolex img {
+    width: 30px;
+    height: 40px;
+    /* background-color: brown; */
+}
+
+.rolex p {
+    color: #105234;
+    font-size: 20px;
+}
+
+
+.rolex-watch {
+    width: 20%;
+    height: 600px;
+    /* background-color: blueviolet; */
+    list-style: none;
+    padding-top: 10px;
+}
+
+.rolex-watch ul li {
+    list-style: none;
+    /* background-color: beige; */
+}
+
+.rolex-watch ul li:hover{
+    color: #105234;
+}
+
+
+.rolex-watch h3 {
+    margin-top: 20px;
+}
+
+.rolex-watch h6 {
+    margin-top: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+
+.footer-section {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    cursor:pointer;
+}
+
+
+.footer-section:hover {
+    color: #105234;
+}
+
+.lang {
+    width: 20%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    /* background-color: #105234; */
+    padding-left: 250px;
+}
+
+/* Toggle switch */
+.switch {
+    position: relative;
+    width: 46px;
+    height: 24px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #ccc;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+input:checked+.slider {
+    background: black;
+}
+
+input:checked+.slider::before {
+    transform: translateX(22px);
+}
+
+.toggle-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    /* background-color:red; */
+    font-size: 16px;
+}
+
+.box-6 {
+    width: 100%;
+    height: 300px;
+    /* background-color: chartreuse; */
+}
+
+.box-7 {
+    width: 100%;
+    height: 300px;
+    background-image: url("background-img.jpg");
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    z-index: -100;
+}
+
+.txt-1 {
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.box-7 h4 {
+    width: 100%;
+    height: 50px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
